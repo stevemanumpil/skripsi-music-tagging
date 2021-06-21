@@ -1,0 +1,60 @@
+.navbar {
+  width: calc(100% - 300px);
+}
+
+#nav-mobile li a {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.navbar {
+    padding: 0 30px;
+}
+
+.sidenav li a.sidenav-header {
+  height: 64px;
+  font-size: 24px;
+  line-height: 64px;
+}
+
+.sidenav li a.bold {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.has-fixed-sidenav {
+    padding-left: 300px;
+}
+
+.custom-container {
+  margin: 10% auto;
+}
+
+#note-img {
+  border: 1px solid black;
+  width: 20%;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+#song-info {
+  display: inline-block;
+}
+
+#song-info #tag-wrapper {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#list-header {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width : 992px) {
+
+  .navbar {
+    width: 100%;
+  }
+
+  .has-fixed-sidenav {
+    padding-left: 0;
+  }
+}
